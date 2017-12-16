@@ -1,0 +1,72 @@
+.wjs_header {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.wjs_header > .container > .row {
+  height: 100%;
+  text-align: center;
+}
+.wjs_header > .container > .row > div:nth-of-type(-n+3) {
+  border-right: 1px solid #ccc;
+}
+.wjs_header > .container > .row > div:nth-of-type(-n+3) > .wjs_code {
+  position: relative;
+  display: block;
+}
+.wjs_header > .container > .row > div:nth-of-type(-n+3) > .wjs_code > img {
+  display: none;
+  position: absolute;
+  top: 49px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 1px solid #ccc;
+}
+.wjs_header > .container > .row > div:nth-of-type(-n+3) > .wjs_code:hover > img {
+  display: block;
+}
+.wjs_header > .container > .row > div:last-of-type > .btn {
+  padding: 3px 15px;
+}
+.wjs_header > .container > .row > div:last-of-type > .btn:focus {
+  outline: none;
+}
+.wjs_header > .container > .row > div:last-of-type > .btnLetf {
+  background-color: #e92322;
+  color: #fff;
+}
+.wjs_header > .container > .row > div:last-of-type > .btnRigth {
+  background-color: transparent;
+}
+.wjs_nav .navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+.wjs_nav .navbar-brand > .wjs_icon {
+  font-size: 40px;
+}
+.wjs_nav .navbar-brand > span:first-of-type {
+  color: #e92322;
+}
+.wjs_nav .navbar-brand > span:last-of-type {
+  color: #333;
+}
+.wjs_nav .navbar-collapse li > a {
+  line-height: 50px;
+  font-size: 16px;
+}
+.wjs_nav .navbar-collapse li > a:hover,
+.wjs_nav .navbar-collapse li > a:focus {
+  color: #000;
+  border-bottom: 3px solid #e92322;
+}
+.wjs_nav .navbar-collapse .active a,
+.wjs_nav .navbar-collapse .active a:hover,
+.wjs_nav .navbar-collapse .active a:focus {
+  background-color: transparent;
+  color: #000;
+  border-bottom: 3px solid #e92322;
+}
+.wjs_nav .navbar-toggle {
+  margin-top: 22px;
+}
